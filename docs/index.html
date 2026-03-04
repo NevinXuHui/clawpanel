@@ -194,6 +194,7 @@
     .community-card { border-radius: 20px; border: 1px solid var(--border); background: var(--bg-card); backdrop-filter: blur(8px); padding: 40px 32px; text-align: center; transition: all 0.35s cubic-bezier(0.16,1,0.3,1); }
     .community-card:hover { transform: translateY(-6px); border-color: var(--border-h); box-shadow: 0 16px 48px -12px rgba(99,102,241,0.18); }
     .community-emoji { font-size: 48px; margin-bottom: 16px; display: block; }
+    .community-qr { width: 160px; height: 160px; border-radius: 12px; margin: 0 auto 16px; border: 1px solid var(--border); }
     .community-card h3 { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
     .community-card .desc { font-size: 14px; color: var(--text-s); margin-bottom: 20px; }
     .community-extra { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
@@ -580,13 +581,13 @@
       </div>
       <div class="community-grid">
         <div class="reveal community-card">
-          <span class="community-emoji">💬</span>
+          <img class="community-qr" src="./qr-qq.png" alt="QQ 群二维码">
           <h3>QQ 交流群</h3>
           <p class="desc">扫码或点击链接加入 OpenClaw 用户群，与开发者和用户实时交流</p>
           <a href="https://qt.cool/c/OpenClaw" target="_blank" rel="noopener" class="btn btn-sm btn-outline">加入 QQ 群</a>
         </div>
         <div class="reveal community-card">
-          <span class="community-emoji">🟢</span>
+          <img class="community-qr" src="./qr-wechat.png" alt="微信群二维码">
           <h3>微信交流群</h3>
           <p class="desc">加入微信群，获取最新版本通知和使用技巧分享</p>
           <a href="https://qt.cool/c/OpenClawWx" target="_blank" rel="noopener" class="btn btn-sm btn-outline">加入微信群</a>
